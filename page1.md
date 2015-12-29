@@ -1,3 +1,6 @@
+---
+title: Page 1
+---
 ##Hello
 
 > Welcome
