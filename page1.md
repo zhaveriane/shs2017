@@ -1,6 +1,8 @@
 ---
-title: Page 1 - 
+title: Page 1 -
+layout: default 
 ---
+
 ##Hello
 
 > Welcome
