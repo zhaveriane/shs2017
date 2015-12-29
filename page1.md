@@ -1,6 +1,6 @@
 ---
 title: Page 1 -
-layout: default 
+layout: index` 
 ---
 
 ##Hello
