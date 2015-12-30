@@ -11,7 +11,7 @@ Sarah and I hope you all enjoy our workshop!
 [Breadboards](./breadboards)
 
 ### Day 2 - Coding!
-[Arduino Basics](./arduino_basics)
+[Arduino Basics](./arduino_basics)  
 [Coding Challenges](./coding_challenges)  
 [Arduino/Circuit Challenges](./arduino_challenges)
 
@@ -29,4 +29,4 @@ Sarah and I hope you all enjoy our workshop!
 
 ##Useful Links:
 C++ Editor: [https://felixhao28.github.io/JSCPP/](https://felixhao28.github.io/JSCPP/)  
-Adafruit Arduino Tutorials: 
+Adafruit Arduino Tutorials: [https://learn.adafruit.com/series/learn-arduino](https://learn.adafruit.com/series/learn-arduino)
