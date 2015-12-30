@@ -20,7 +20,7 @@ On either edge of the board are much longer sections of clip that join together 
 
 For our first circuit, we'll simply be making a circuit light up. Copy the circuit in this image to your breadboard:
 
-![ledBB](led_bb_simple.png)
+![ledBB](images/led_bb_simple.png)
 
 Note that the direction you plug your LED in matters. Make sure the long end of the component matches the ciruit drawing.
 
