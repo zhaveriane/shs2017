@@ -92,7 +92,7 @@ Okay, now how about this circuit?
 
 This one has two resistors in parallel. In this case, current splits into two, proportionally. **We can treat the two parallel resistors like a resistor of equivalent value**:
 
-> R = 1 / (R1 + R2)
+> 1 / R = (1 / R1) + (1 / R2)
 
 And now we use V=IR to find I. Let's say Vs = 10 Volts, R1 = 3 Ohms, and R2 = 1 Ohm. 
 
