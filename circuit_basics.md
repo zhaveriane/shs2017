@@ -101,7 +101,7 @@ And now we use V=IR to find I. Let's say Vs = 10 Volts, R1 = 3 Ohms, and R2 = 1 
 
 Now the interesting part is that more current goes through R2, since it has a lower resistance. To calculate it, use the following formula:
 
-> I2 = I * R2 / (R1+R2)
+> I2 = I * R1 / (R1+R2)
 
 So in the example above, this would be:
 
