@@ -64,7 +64,7 @@ Main = React.createClass({
       lastVars: []
     };
   },
-  defaultCode: "//\n//Ignore this:\n#include <iostream>\nusing namespace std;\n#define println(x) do { cout << x << endl; } while (0) \n#define print(x) do { cout << x; } while (0) \n\n\nint main() {\n    yourCode();\n    return 0;\n}\n\n\n//\n//   Write your code here:\n//\n\nvoid yourCode(){\n    int a = 5;\n    println(a);\n}",
+  defaultCode: "//Factorial////Ignore this:#include <iostream>using namespace std;#define println(x) do { cout << x << endl; } while (0) #define print(x) do { cout << x; } while (0) int main() {    if (factorial(0) == 1){        println(\"Passed test 1!\");    } else {        print(\"Test 1 failed: returned \");        print(factorial(0));        println(\" instead of 1\");    }        if (factorial(1) == 1){        println(\"Passed test 2!\");    } else {        print(\"Test 2 failed: returned \");        print(factorial(1));        println(\" instead of 1\");    }    if (factorial(5) == 120){        println(\"Passed test 3!\");    } else {        print(\"Test 3 failed: returned \");        print(factorial(5));        println(\" instead of 130\");    }    if (factorial(10) == 3628800){        println(\"Passed test 4!\");    } else {        print(\"Test 4 failed: returned \");        print(factorial(10));        println(\" instead of 3628800\");    }        return 0;}//   //   Calculate the factorial of n://int factorial(int n){    //Write code here}",
   componentDidMount: function() {
     jQuery.hotkeys.options.filterInputAcceptingElements = false;
     jQuery.hotkeys.options.filterContentEditable = false;

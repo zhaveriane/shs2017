@@ -64,7 +64,7 @@ Main = React.createClass({
       lastVars: []
     };
   },
-  defaultCode: "//\n//Ignore this:\n#include <iostream>\nusing namespace std;\n#define println(x) do { cout << x << endl; } while (0) \n#define print(x) do { cout << x; } while (0) \n\n\nint main() {\n    yourCode();\n    return 0;\n}\n\n\n//\n//   Write your code here:\n//\n\nvoid yourCode(){\n    int a = 5;\n    println(a);\n}",
+  defaultCode: "////Ignore this:#include <iostream>using namespace std;#define println(x) do { cout << x << endl; } while (0) #define print(x) do { cout << x; } while (0) int main() {    if (salesTax(100.0, .1) == 10.0){        println(\"Passed test 1!\");    } else {        print(\"Test 1 failed: returned \");        print(salesTax(100, .1));        println(\" instead of 10.0\");    }        if (salesTax(16, .25) == 4.0){        println(\"Passed test 2!\");    } else {        print(\"Test 2 failed: returned \");        print(salesTax(16, .25));        println(\" instead of 4.0\");    }        return 0;}////   Calculate Sales Tax://float salesTax(float saleTotal, float taxRate){    //Write code here}",
   componentDidMount: function() {
     jQuery.hotkeys.options.filterInputAcceptingElements = false;
     jQuery.hotkeys.options.filterContentEditable = false;
