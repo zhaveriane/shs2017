@@ -28,5 +28,5 @@ Sarah and I hope you all enjoy our workshop! This workshop is going to cover a l
 [Basics](./basics)
 
 ##Useful Links:
-C++ Editor: [https://felixhao28.github.io/JSCPP/](https://felixhao28.github.io/JSCPP/)  
+[C++ Editor](cpp_shell/cpp_shell)  
 Adafruit Arduino Tutorials: [https://learn.adafruit.com/series/learn-arduino](https://learn.adafruit.com/series/learn-arduino)
