@@ -1,4 +1,4 @@
-markdown: redcarpet
+markdown: kramdown
 
 title: MIT Workshop
 description: January 2017
