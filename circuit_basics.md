@@ -32,7 +32,7 @@ The next most basic component is a resistor. Resistors look like this:
 
 And the circuit diagram symbol for a resistor looks like a zig zag line: 
 
-![Resistor Symbol](https://electronicscomponents.files.wordpress.com/2014/03/resistor2.gif)
+![Resistor Symbol](http://www.circuitstoday.com/wp-content/uploads/2010/02/Symbol-of-resistor.JPG)
 
 Resistors restrict the flow of electricity. 
 
@@ -53,7 +53,7 @@ Now that we have introduced some basic components, let's see how we can create c
 
 Here is a basic circuit.
 
-![Basic Circuit](http://faculty.plattsburgh.edu/donald.slish/figures/Basiccircuit.gif)
+![Basic Circuit](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ohm's_Law_with_Voltage_source_TeX.svg/520px-Ohm's_Law_with_Voltage_source_TeX.svg.png)
 
 In diagrams, we use the letter "I" to denote current, "R" for resistance, and "V" for voltage. As indicated in the diagram, current always flows from positive to negative. Let's say V = 3 Volts (Volts are a unit of voltage), and R = 3 Ohms (Ohms are a unit of resistance). To figure out what I is, we can use something called Ohm's Law.
 
@@ -88,7 +88,7 @@ Let's try R1 first. V = .02 * 100, so the voltage drop is 2 Volts. If we do the 
 
 Okay, now how about this circuit?
 
-![ParallelCircuit](http://people.sinclair.edu/nickreeder/eet1150/PageArt/CircuitParallelConnect.gif)
+![ParallelCircuit](images/unsolved_series.png)
 
 This one has two resistors in parallel. In this case, current splits into two, proportionally. **We can treat the two parallel resistors like a resistor of equivalent value**:
 
