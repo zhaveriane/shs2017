@@ -24,4 +24,3 @@ This workshop is going to cover a lot of information in a very short amount of t
 
 ##Useful Links:
 [C++ Editor](cpp_shell/cpp_shell)  
-Adafruit Arduino Tutorials: [https://learn.adafruit.com/series/learn-arduino](https://learn.adafruit.com/series/learn-arduino)
