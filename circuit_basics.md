@@ -88,7 +88,7 @@ Let's try R1 first. V = .02 * 100, so the voltage drop is 2 Volts. If we do the 
 
 Okay, now how about this circuit?
 
-![ParallelCircuit](images/unsolved_parallel.png)
+![ParallelCircuit](images/unsolved_parallel.gif)
 
 This one has two resistors in parallel. In this case, current splits into two, proportionally. **We can treat the two parallel resistors like a resistor of equivalent value**:
 
