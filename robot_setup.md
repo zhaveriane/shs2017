@@ -2,4 +2,4 @@
 layout: index
 ---
 
-# Computer-Aided Design
+# Robot Kit
