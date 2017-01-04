@@ -4,9 +4,9 @@ layout: index
 
 # Computer-Aided Design (CAD) 
 
-![arch](images/cad_arch.png)
-![robot](images/cad_robot.png)
-![robot2](images/cad_real_robot.png)
+![arch](images/cad_arch.jpg)
+![robot](images/cad_robot.jpg)
+![robot2](images/cad_real_robot.jpg)
 
 # Part Making
 
