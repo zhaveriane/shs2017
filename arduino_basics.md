@@ -4,34 +4,33 @@ layout: index
 
 #Arduino Basics
 
-Today we'll be taking an in-depth look at Arduino's, and what they're capable of. In short, we can use Arduinos to control circuits with code, allowing us to add complex logic to our circuits. We've already seen a couple of demos of what we can do.
+Arduino is a tool for making computers that can sense and control more of the physical world than your desktop computer. Arduino is a small circuit board with an Atmel MicroController chip and other parts. 
 
-### Reading Voltage Data
+Arduino is a "Rapid Electronics Prototyping Platform" which consists of two main parts:
+** HARDWARE: An Arduino Open-Source Microcomputer board **
+![](https://arduino-info.wikispaces.com/file/view/RoboRed-Annotated-600.jpg/540023456/465x339/RoboRed-Annotated-600.jpg)
 
-One thing we'll want to do is read voltage values from our circuit. Try opening the Basic AnalogReadSerial example, and connecting the flex sensor crcuit to A04. You should see numbers changing as you bend the sensor around. This allows us to look at how much each flex sensor is flex, which we'll want to do for our final project. 
+** SOFTWARE: The free Arduino IDE that runs on PC, MAC, or Linux **
+![](https://arduino-info.wikispaces.com/file/view/ArduinoArch1-900.jpg/374218474/880x665/ArduinoArch1-900.jpg)
 
-### Writing Voltage Data
+**Arduino** can be used to quickly develop **Interactive Objects**, taking **Inputs** from a variety of switches or sensors, making **Decisions**, and controlling a variety of **Outputs** such as lights, motors, sounds, etc. This is called **Physical Computing**.
 
-We also want to be able to control voltage values in our circuits. Arduino allows us to do this easily. Try out the Basic Fade example, and try measuring the voltage output from the pin using your multimeter. You should see the voltage changing.
+** The Arduino IDE (Integrated Development Environment) **
 
-## Basic Code Syntax
+![](https://arduino-info.wikispaces.com/file/view/IDE-Example1.jpg/374274694/IDE-Example1.jpg)
 
-Okay, so we've seen what is possible with Arduino's. Now we'll take a look at how to code programs for Arduino. Arduino uses a progamming language similar to C++. 
+This is the free software you will use to create the Behavior of your project. Here's what it includes:
+* An **EDITOR** to create and edit the text of your software Sketch. It actively highlights Keywords in the language so typing errors are more obvious.
+* A **VERIFY** system that runs through your Sketch, verifies that there are no errors, and then compiles it into the machine language program that can be Uploaded to your Arduino board over the USB cable.
+* An **UPLOAD** system that communicates with your Arduino Board over USB, loads your program into Arduino memory, and starts your program running.
+* A **SERIAL MONITOR** window that allows you to receive and send messages from programs running on your Arduino board. This is often used for testing and "debugging" programs.
+* Many **EXAMPLE** software Sketches that show how to use many different devices and techniques.
 
-### Arduino Code Layout
+**The "Arduino Language"**:
 
-A default Arduino project looks like this:
+If you haven't written "code" in any computer language yet, you'll have to get used to writing very specific commands to get things done. But Arduino gives you many easy to use commands! To turn an LED ON for example, you'd write something like:
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
+'digitalWrite(led, HIGH);'   // turn the LED on (HIGH is the voltage level)
+and to turn it off again, you'd write:
+'digitalWrite(led, LOW);'    // turn the LED off by making the voltage LOW
 
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
-```
-
-In this code, __setup__ and __loop__ are **functions**. In Arduino, __setup__ and __loop__ are special functions. __setup__ is run once, and __loop__ is run over and over again until power is removed.
