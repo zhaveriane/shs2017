@@ -8,8 +8,10 @@ layout: index
 
 [Challenge 2](cpp_shell/challenge2)
 
-[Challenge 3](cpp_shell/fibbochallenge)
+[Challenge 3: Factorial](cpp_shell/challenge2)
 
 ## More Challenges
 
-[Challenge 4](cpp_shell/challenge4)
+[Challenge 4: Prime Numbers](cpp_shell/challenge4)
+
+[Challenge 5: Fibonacci](cpp_shell/fibbochallenge)
