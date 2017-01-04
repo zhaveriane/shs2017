@@ -6,8 +6,8 @@ layout: index
 This workshop is going to cover a lot of information in a very short amount of time. The concepts covered in this workshop can easily take over a semester of classes to fully understand, so don't worry if things don't make sense. The goal of this workshop is to show you guys different areas in Electrical Engineering and Computer Science, and to build a cool project!
 
 ### CAD
-[What is CAD?](./cad_intro)  
-[Basic CAD Skills](./cad_basics)
+[Making Parts](./cad_part)
+[CAD Assembly](./cad_assemble)
 
 ### Circuits
 [Circuit Basics](./circuit_basics)  
