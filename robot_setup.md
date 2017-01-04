@@ -9,6 +9,6 @@ Here's the robot kit that we will be using for the workshop - **The Yourduino Ro
 The kit comes with all the bare essentials needed to understand the basics of robotics, and also to get a robot up and running!
 
 **ROBOT CHASSIS, WHEELS, AND DC MOTORS**
-![Chassis, wheels, motors](http://arduino-info.wikispaces.com/file/view/Chassis-Wheels-900V.jpg/539714850/240x347/Chassis-Wheels-900V.jpg}
+![Chassis, wheels, motors](http://arduino-info.wikispaces.com/file/view/Chassis-Wheels-900V.jpg/539714850/240x347/Chassis-Wheels-900V.jpg)
 
 
