@@ -2,58 +2,24 @@
 layout: index
 ---
 
-# Part Making
+# Assembly
 
-## Draw 2D Sketch
+## Planar Mate
 
-Click “sketch” button
+Select plane 1
 
-Select sketch shape (rectangle, circle, ellipse, polygon etc)
+Select plane 2
 
-## Extrude
+Type in offset (if needed)
 
-Click "extrude" button
+## Assembling Legos
 
-Select 2D sketchd plane
+![lego assmeble](images/lego_assemble.png)
 
-Type in height
+# Problem Solving
 
-## Negative Extrude / Shell
+You have 3 pingpong balls which are rolling around your desk annoyingly. Let's fix this problem. Make a container that can hold these balls in place.
 
-Negative Extrude: Type in negative number for extrude height
+# Creative Making
 
-Shell: Click "shell" button and select face to extrude
-
-## Revolve
-
-Click "revolve" button
-
-Select sketch and axis
-
-## Pattern
-
-Click "pattern" button
-
-Choose type of pattern
-
-Select solid to copy (use "Feature Pattern" not "Part Pattern")
-
-Select axis and direction: click on edge of the solid
-
-Type in distance
-
-# Practice Exercise
-
-## Basics
-
-Cup
-
-Shelf
-
-Desk
-
-## Lego
-
-[lego dimension image]
-
-
+Make a trophy! Be creative!
