@@ -2,6 +2,12 @@
 layout: index
 ---
 
+# Computer-Aided Design (CAD)
+
+![arch](images/cad_arch.png)
+![robot](images/cad_robot.png)
+![robot2](images/cad_real_robot.png)
+
 # Part Making
 
 ## Draw 2D Sketch
