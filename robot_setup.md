@@ -16,7 +16,7 @@ Recommended Setup Directions:
 
 ![](http://arduino-info.wikispaces.com/file/view/VelcroPositions-1024.jpg/558303029/560x407/VelcroPositions-1024.jpg)
 
-![](http://arduino-info.wikispaces.com/file/view/MotorMounts1B-800.jpg/540964264/504x322/MotorMounts1B-800.jpg}
+![](http://arduino-info.wikispaces.com/file/view/MotorMounts1B-800.jpg/540964264/504x322/MotorMounts1B-800.jpg)
 
 ![](http://arduino-info.wikispaces.com/file/view/MotorMounts2-800.jpg/540964358/407x601/MotorMounts2-800.jpg)
 
