@@ -2,14 +2,10 @@
 layout: index
 ---
 
-# CAD Basics
+# CAD Part Making
 
-## Lego Block
+## Extrude
 
-### Extrude
+## Shell
 
-### Shell
-
-### Symmetry
-
-## Assembly
+## Symmetry
