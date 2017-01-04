@@ -2,10 +2,16 @@
 layout: index
 ---
 
-# CAD Part Making
+# Part Making
 
 ## Extrude
 
 ## Shell
 
 ## Symmetry
+
+# Assembly
+
+## Scale
+
+## Move
