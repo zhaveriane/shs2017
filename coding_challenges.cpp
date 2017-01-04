@@ -29,6 +29,58 @@ int main() {
     return 0;
 }
 
+//Addition and multiplication
+
+//Ignore this:
+#include <iostream>
+using namespace std;
+#define println(x) do { cout << x << endl; } while (0) 
+#define print(x) do { cout << x; } while (0) 
+
+int main() {
+    if (add(5, 2) == 7){
+        println("Passed test 1!");
+    } else {
+        print("Test 1 failed: returned ");
+        print(add(5, 2));
+        println(" instead of 7");
+    }
+
+    if (add(10, 32) == 42){
+        println("Passed test 2!");
+    } else {
+        print("Test 2 failed: returned ");
+        print(add(10, 32));
+        println(" instead of 42");
+    }
+    
+    if (multiply(5, 2) == 10){
+        println("Passed test 1!");
+    } else {
+        print("Test 1 failed: returned ");
+        print(add(5, 2));
+        println(" instead of 10");
+    }
+
+    if (multiply(10, 32) == 320){
+        println("Passed test 2!");
+    } else {
+        print("Test 2 failed: returned ");
+        print(add(10, 32));
+        println(" instead of 320");
+    }
+    
+    return 0;
+}
+
+int add(int a, int b){
+    // code here
+}
+
+int multiply(int a, int b){
+    // code here
+}
+
 
 //
 //   Calculate Sales Tax:

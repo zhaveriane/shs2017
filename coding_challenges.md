@@ -2,9 +2,9 @@
 layout: index
 ---
 
-#Coding Challenges
+# Coding Challenges
 
-[Challenge 1](cpp_shell/challenge1)
+[Challenge 1: Add and Multiply](cpp_shell/challenge1)
 
 [Challenge 2](cpp_shell/challenge2)
 
