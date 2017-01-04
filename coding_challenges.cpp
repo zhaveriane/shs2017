@@ -29,6 +29,15 @@ int main() {
     return 0;
 }
 
+//
+//   Calculate Sales Tax:
+//
+
+float salesTax(float saleTotal, float taxRate){
+    return saleTotal*taxRate;
+}
+
+
 //Addition and multiplication
 
 //Ignore this:
@@ -81,14 +90,6 @@ int multiply(int a, int b){
     // code here
 }
 
-
-//
-//   Calculate Sales Tax:
-//
-
-float salesTax(float saleTotal, float taxRate){
-    return saleTotal*taxRate;
-}
 
 //Fibbo
 
