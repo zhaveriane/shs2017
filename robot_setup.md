@@ -10,6 +10,8 @@ The kit comes with all the bare essentials needed to understand the basics of ro
 
 **ROBOT CHASSIS, WHEELS, AND DC MOTORS**
 
+Recommended Setup Directions:
+
 ![Chassis, wheels, motors](http://arduino-info.wikispaces.com/file/view/Chassis-Wheels-900V.jpg/539714850/240x347/Chassis-Wheels-900V.jpg)
 
 ![](http://arduino-info.wikispaces.com/file/view/VelcroPositions-1024.jpg/558303029/560x407/VelcroPositions-1024.jpg)
