@@ -45,7 +45,7 @@ A string is text, like a word or a sentence. In C++ strings must have quotation 
 
 ### Variables
 
-Vaiables are symbols that can hold values. Think of them as a box that you can put things in. We use an equal sign = to assign values to a variable. For example, take a look at the following code:
+Variables are symbols that can hold values. Think of them as a box that you can put things in. We use an equal sign = to assign values to a variable. For example, take a look at the following code:
 
 ```c++
 int a = 5;
@@ -67,7 +67,7 @@ We can also specify the default value if we want:
 int a = 5;
 ```
 
-**We only need to declare a vaiable once in a program** After it has been declared, we can use it without specifying the type:
+**We only need to declare a variable once in a program** After it has been declared, we can use it without specifying the type:
 
 ```c++
 int a = 5;
