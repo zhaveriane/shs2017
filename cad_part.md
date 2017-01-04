@@ -46,14 +46,12 @@ Type in distance
 
 ## Basics
 
-Cup
-
-Shelf
-
-Desk
+![cup1](images/cup1.png)
+![cup2](images/cup2.png)
+![shelf](images/shelf.png)
+![desk](images/desk.png)
 
 ## Lego
 
-[lego dimension image]
-
+![lego dimension image](images/lego.png)
 
