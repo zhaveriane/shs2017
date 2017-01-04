@@ -12,34 +12,44 @@ Select sketch shape (rectangle, circle, ellipse, polygon etc)
 
 ## Extrude
 
-Click "construct" button
-
 Click "extrude" button
 
 Select 2D sketchd plane
 
 Type in height
 
-## Subtract / Negative Extrude
+## Negative Extrude / Shell
 
 Negative Extrude: Type in negative number for extrude height
 
-Subtract: Click "combine" button, Click "subtract" button
+Shell: Click "shell" button and select face to extrude
+
+## Revolve
+
+Click "revolve" button
+
+Select sketch and axis
 
 ## Pattern
 
 Click "pattern" button
 
-Click "rectangular pattern" button
+Choose type of pattern
 
-Select solid to copy
+Select solid to copy (use "Feature Pattern" not "Part Pattern")
 
 Select axis and direction: click on edge of the solid
 
 Type in distance
 
-# Assembly
+# Practice Exercise
 
-## Scale
+## Basics
 
-## Move
+Cup
+
+Bottle
+
+Shelf
+
+## Lego
