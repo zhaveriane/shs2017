@@ -91,6 +91,34 @@ int multiply(int a, int b){
 }
 
 
+//Arrays
+
+//Ignore this:
+#include <iostream>
+using namespace std;
+#define println(x) do { cout << x << endl; } while (0) 
+#define print(x) do { cout << x; } while (0) 
+
+
+int main() {
+    if (getFirstArray() == 5){
+        println("Passed test 1!");
+    } else {
+        print("Test 1 failed: returned ");
+        print(getFirstArray());
+        println(" instead of 5");
+    }
+    
+    return 0;
+}
+
+// Get the first number in an array
+float getFirstArray(){
+    int arr[3] = {5, 10, 15};
+
+    // code here
+}
+
 //Fibbo
 
 //

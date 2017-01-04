@@ -6,7 +6,7 @@ layout: index
 
 [Challenge 1: Add and Multiply](cpp_shell/challenge1)
 
-[Challenge 2](cpp_shell/challenge2)
+[Challenge 2: Arrays](cpp_shell/challenge3)
 
 [Challenge 3: Factorial](cpp_shell/challenge2)
 
