@@ -10,13 +10,15 @@ layout: index
 ![](https://arduino-info.wikispaces.com/file/view/RoboRed-Annotated-600.jpg/540023456/465x339/RoboRed-Annotated-600.jpg)
 
 **SOFTWARE: The free Arduino IDE that runs on PC, MAC, or Linux**
+![](https://arduino-info.wikispaces.com/file/view/IDE-Example1.jpg/374274694/IDE-Example1.jpg)
+
+**ARDUINO BASIC OVERVIEW**
+
 ![](https://arduino-info.wikispaces.com/file/view/ArduinoArch1-900.jpg/374218474/880x665/ArduinoArch1-900.jpg)
 
 **Arduino** can be used to quickly develop **Interactive Objects**, taking **Inputs** from a variety of switches or sensors, making **Decisions**, and controlling a variety of **Outputs** such as lights, motors, sounds, etc. This is called **Physical Computing**.
 
 **The Arduino IDE (Integrated Development Environment)**
-
-![](https://arduino-info.wikispaces.com/file/view/IDE-Example1.jpg/374274694/IDE-Example1.jpg)
 
 This is the free software you will use to create the Behavior of your project. Here's what it includes:
 
@@ -35,6 +37,7 @@ This is the free software you will use to create the Behavior of your project. H
 Every Arduino Software Sketch has two main parts:
 
 **SETUP** - Runs Once at the beginning
+
 **LOOP** - Runs over and over again, forever
 
 ![](https://arduino-info.wikispaces.com/file/view/LCSS-IDE-BlinkCode.jpg/293533854/503x424/LCSS-IDE-BlinkCode.jpg)
@@ -78,19 +81,12 @@ wire colors may vary!
 * Servo Red or Orange (Center wire) to +5V
 * Servo White or Yellow to Signal (Pin 11)
 
-And here's a basic code to control the servo. Carefully go over the comments if you are confused!
+And here's a basic code to control the servo. Don't get scared by the length of the code - it mostly includes comments to clarify any misunderstandings!
 
 ```
 /* YourDuino Basic Robot Kit V2: Test Servo movement
  - WHAT IT DOES: Tests the servo by commanding it to go to several different directions
-   to "Look Around". You may want to reposition the servo arm on the servo to get the
-   positions to look around correctly.
- - SEE the comments after "//" on each line below
- - CONNECTIONS:
-   - 
-   - 
- - V2.12 12/10/2016 Limit extreme poistions
-   Questions: terry@yourduino.com */
+   to "Look Around". 
 
 /*-----( Import needed libraries )-----*/
 #include <Servo.h>
@@ -109,7 +105,6 @@ void setup()   /****** SETUP: RUNS ONCE ******/
   myservo.attach(SERVO_PIN);  // attaches the servo on pin 11 to the servo object
 
 }//--(end setup )---
-
 
 void loop()   /****** LOOP: RUNS CONSTANTLY ******/
 {
