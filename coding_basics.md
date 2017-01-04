@@ -2,6 +2,8 @@
 layout: index
 ---
 
+### Debugging
+
 It is useful to have a code editor open so you can copy and paste examples and play around with them:
 [Online Code Editor](cpp_shell/cpp_shell.html)  
 
@@ -21,9 +23,29 @@ Anything after the two slashes is ignored.
 
 Also, in C++, we must always end each line with a semicolon.
 
+### Primitives
+
+These are the basic building blocks of a programming language. In C++ these are:
+
+#### int
+
+An integer like 4, 29, 0, -5.
+
+#### float
+
+A decimal number like 1.2, 57.7.
+
+#### bool
+
+A boolean is either yes or no. In C++ booleans are either __true__ or __false__.
+
+#### string
+
+A string is a word. In C++ strings must have quotation marks "" around them.
+
 ### Variables
 
-Vaiables are symbols that can hold values. Think of them as a box that you can put things in. For example, take a look at the following code:
+Vaiables are symbols that can hold values. Think of them as a box that you can put things in. We use an equal sign = to assign values to a variable. For example, take a look at the following code:
 
 ```c++
 int a = 5;
@@ -98,7 +120,6 @@ We can even put two tests together:
 ```c++
 int a = 5;
 int b = 8;
-
 if (a > 3 && b > 3){
     print("both a and b are greater than 3");
 }
@@ -116,10 +137,29 @@ if (a > 9){
 ```
 In thse above code, only the second "print" is executed, since it fails the test.
 
-### While Loops
-**TODO**
+### Loops
 
-### For Loops
+A loop lets you run a section of code many times. Each time we go through a loop once is called an iteration.
+
+#### While Loops
+
+A while loop lets you run a section of code while something is true. For example:
+
+```c++
+int a = 3;
+while(a > 0) {
+	print("hello");
+	a = a - 1
+}
+```
+
+This code above will start with a variable __a__ that has a value of 3. When we enter the while loop, 3 > 0 so we print "hello" and then lower the value of __a__ by 1. In the second iteration, __a__ = 2 and 2 > 0, so we will print "hello" and lower the value of __a__ by 1 again. In the third iteration, __a__ = 1 and 1 > 0, so we will print "hello" and lower the value of __a__ by 1. In the fourth iteration, __a__ = 0, and 0 is not > 0, so we will exit the while loop.
+
+### Arrays
+
+
+
+#### For Loops
 **TODO**
 
 To get you guys familiar with coding, we have a couple of excercises for you all to try. 
