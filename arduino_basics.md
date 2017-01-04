@@ -34,7 +34,11 @@ This is the free software you will use to create the Behavior of your project. H
 
 If you haven't written "code" in any computer language yet, you'll have to get used to writing very specific commands to get things done. But Arduino gives you many easy to use commands! To turn an LED ON for example, you'd write something like:
 
+```
 digitalWrite(led, HIGH);  // turn the LED on (HIGH is the voltage level)
+```
 and to turn it off again, you'd write:
+```
 digitalWrite(led, LOW);   // turn the LED off by making the voltage LOW
+```
 
