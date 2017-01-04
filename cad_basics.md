@@ -48,8 +48,12 @@ Type in distance
 
 Cup
 
-Bottle
-
 Shelf
 
+Desk
+
 ## Lego
+
+[lego dimension image]
+
+
