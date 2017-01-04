@@ -38,6 +38,7 @@ If you haven't written "code" in any computer language yet, you'll have to get u
 digitalWrite(led, HIGH);  // turn the LED on (HIGH is the voltage level)
 ```
 and to turn it off again, you'd write:
+
 ```
 digitalWrite(led, LOW);   // turn the LED off by making the voltage LOW
 ```
