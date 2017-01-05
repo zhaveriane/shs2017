@@ -7,7 +7,7 @@ This workshop is going to cover a lot of information in a very short amount of t
 
 ### CAD
 [Making CAD Parts](./cad_part)  
-[CAD Assembly](./cad_assemble)
+[CAD Assembly and Application](./cad_assemble)
 
 ### Circuits
 [Circuit Basics](./circuit_basics)  
