@@ -17,6 +17,17 @@ layout: index
 
 ## Add RF Module
 
+| RF Chip Pin Name | RF Chip Pin Number | Arduino Pin |
+| ---------------- | ------------------ | ----------- |
+| GND              | 1                  | GND         |
+| VCC              | 2                  | 3.3V        |
+| CE               | 3                  | 7           |
+| CSN              | 4                  | 8           |
+| SCK              | 5                  | 13          |
+| MOSI             | 6                  | 11          |
+| MISO             | 7                  | 12          |
+| IRQ              | 8                  |             |
+
 ![rf](images/rf_module_photos/5.jpg)
 
 ![rf](images/rf_module_photos/6.jpg)
