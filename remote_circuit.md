@@ -13,9 +13,9 @@ layout: index
 
 ![joystick](images/rf_module_photos/3.jpg)
 
-## Add RF Module
-
 ![rf](images/rf_module_photos/4.jpg)
+
+## Add RF Module
 
 ![rf](images/rf_module_photos/5.jpg)
 
