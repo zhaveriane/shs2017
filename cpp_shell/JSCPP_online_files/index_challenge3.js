@@ -64,7 +64,40 @@ Main = React.createClass({
       lastVars: []
     };
   },
-  defaultCode: "//Arrays\n\n\n//Ignore this:\n#include <iostream>\nusing namespace std;\n#define println(x) do { cout << x << endl; } while (0) \n#define print(x) do { cout << x; } while (0) \n\n\nint main() {\n    if (getFirstArray() == 5){\n        println(\"Passed test 1!\");\n    } else {\n        print(\"Test 1 failed: returned \");\n        print(getFirstArray());\n        println(\" instead of 5\");\n    }\n    \n    return 0;\n}\n\n// Get the first number in an array\nfloat getFirstArray(){\n    int arr[3] = {5, 10, 15};\n\n    // code here\n}",
+  defaultCode: "//If Statement
+
+//Ignore this:
+#include <iostream>
+using namespace std;
+#define println(x) do { cout << x << endl; } while (0) 
+#define print(x) do { cout << x; } while (0) 
+
+
+int main() {
+    if (isold(500)){
+        println(\"Passed test 1!\");
+    } else {
+        print(\"Test 1 failed: returned \");
+        print(isold(500));
+        println(\" instead of true\");
+    }
+
+    if (isold(5)){
+        println(\"Passed test 2!\");
+    } else {
+        print(\"Test 2 failed: returned \");
+        print(isold(5));
+        println(\" instead of false\");
+    }
+    
+    return 0;
+}
+
+// Return whether or not a person is old
+// A person is old if he is older than 80
+bool isOld(int age){
+    // code here
+}",
   componentDidMount: function() {
     jQuery.hotkeys.options.filterInputAcceptingElements = false;
     jQuery.hotkeys.options.filterContentEditable = false;
