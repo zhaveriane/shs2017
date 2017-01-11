@@ -113,7 +113,7 @@ int main() {
 }
 
 // Get the first number in an array
-float getFirstArray(){
+int getFirstArray(){
     int arr[3] = {5, 10, 15};
 
     // code here
