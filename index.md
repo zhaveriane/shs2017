@@ -6,8 +6,8 @@ layout: index
 This workshop is going to cover a lot of information in a very short amount of time. The concepts covered in this workshop can easily take over a semester of classes to fully understand, so don't worry if things don't make sense. The goal of this workshop is to show you guys different areas in Electrical Engineering and Computer Science, and to build a cool project!
 
 ### CAD
-[What is CAD?](./cad_intro)  
-[Basic CAD Skills](./cad_basics)
+[Making CAD Parts](./cad_part)  
+[CAD Assembly and Application](./cad_assemble)
 
 ### Circuits
 [Circuit Basics](./circuit_basics)  
@@ -33,5 +33,5 @@ This workshop is going to cover a lot of information in a very short amount of t
 ##Useful Links:
 [C++ Editor](cpp_shell/cpp_shell)  
 Adafruit Arduino Tutorials: [https://learn.adafruit.com/series/learn-arduino](https://learn.adafruit.com/series/learn-arduino)  
-123D Design Tutorials: [http://www.123dapp.com/howto/design](http://www.123dapp.com/howto/design)  
+Onshape Tutorials: [https://www.onshape.com/videos/topic/tutorials](https://www.onshape.com/videos/topic/tutorials)  
 Yourduino Robot Kit Tutorials: [http://arduino-info.wikispaces.com/RobotKitMenu](http://arduino-info.wikispaces.com/RobotKitMenu)

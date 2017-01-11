@@ -2,6 +2,12 @@
 layout: index
 ---
 
+# Computer-Aided Design (CAD) 
+
+![arch](images/cad_arch.jpg)
+![robot](images/cad_robot.jpg)
+![robot2](images/cad_real_robot.jpg)
+
 # Part Making
 
 ## Draw 2D Sketch
@@ -46,14 +52,12 @@ Type in distance
 
 ## Basics
 
-Cup
-
-Shelf
-
-Desk
+![cup1](images/cup1.png)
+![cup2](images/cup2.png)
+![shelf](images/shelf.png)
+![desk](images/desk.png)
 
 ## Lego
 
-[lego dimension image]
-
+![lego dimension image](images/lego.png)
 
