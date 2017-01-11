@@ -119,6 +119,41 @@ int getFirstArray(){
     // code here
 }
 
+//If Statement
+
+//Ignore this:
+#include <iostream>
+using namespace std;
+#define println(x) do { cout << x << endl; } while (0) 
+#define print(x) do { cout << x; } while (0) 
+
+
+int main() {
+    if (isold(500)){
+        println("Passed test 1!");
+    } else {
+        print("Test 1 failed: returned ");
+        print(isold(500));
+        println(" instead of true");
+    }
+
+    if (isold(5)){
+        println("Passed test 2!");
+    } else {
+        print("Test 2 failed: returned ");
+        print(isold(5));
+        println(" instead of false");
+    }
+    
+    return 0;
+}
+
+// Return whether or not a person is old
+// A person is old if he is older than 80
+bool isOld(int age){
+    // code here
+}
+
 //Fibbo
 
 //
@@ -359,6 +394,40 @@ bool isPrime(int n){
     return true;
 }
 
+//Sum of Array
 
+//Ignore this:
+#include <iostream>
+using namespace std;
+#define println(x) do { cout << x << endl; } while (0) 
+#define print(x) do { cout << x; } while (0) 
+
+
+int main() {
+    int array1[5] = {1, 1, 1, 1, 1};
+    if (arraySum(array1) == 5){
+        println("Passed test 1!");
+    } else {
+        print("Test 1 failed: returned ");
+        print(sum(array1));
+        println(" instead of 5");
+    }
+
+    int arary2[10] = {13, 130, 54, 2, 6, 8, 2, 35, -1, 10};
+    if (arraySum(array2) == 331){
+        println("Passed test 2!");
+    } else {
+        print("Test 2 failed: returned ");
+        print(arraySum(array2));
+        println(" instead of false");
+    }
+    
+    return 0;
+}
+
+// Return the sum of all the numbers in an array
+int arraySum(int array[]){
+    // code here
+}
 
 
