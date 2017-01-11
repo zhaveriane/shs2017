@@ -64,7 +64,7 @@ Main = React.createClass({
       lastVars: []
     };
   },
-  defaultCode: "\n//If Statement\n\n\n//Ignore this:\n#include <iostream>\nusing namespace std;\n#define println(x) do { cout << x << endl; } while (0) \n#define print(x) do { cout << x; } while (0) \n\n\n\nint main() {\n    if (isOld(500)){\n        println(\"Passed test 1!\");\n    } else {\n        print(\"Test 1 failed: returned \");\n        print(isOld(500));\n        println(\" instead of true\");\n    }\n\n\n    if (isOld(5)){\n        println(\"Passed test 2!\");\n    } else {\n        print(\"Test 2 failed: returned \");\n        print(isOld(5));\n        println(\" instead of false\");\n    }\n    \n    return 0;\n}\n\n\n// Return whether or not a person is old// A person is old if he is older than 80\nbool isOld(int age){\n    // code here\n}",
+  defaultCode: "\n//If Statement\n\n\n//Ignore this:\n#include <iostream>\nusing namespace std;\n#define println(x) do { cout << x << endl; } while (0) \n#define print(x) do { cout << x; } while (0) \n\n\n\nint main() {\n    if (isOld(500)){\n        println(\"Passed test 1!\");\n    } else {\n        print(\"Test 1 failed: returned \");\n        print(isOld(500));\n        println(\" instead of true\");\n    }\n\n\n    if (!isOld(5)){\n        println(\"Passed test 2!\");\n    } else {\n        print(\"Test 2 failed: returned \");\n        print(isOld(5));\n        println(\" instead of false\");\n    }\n    \n    return 0;\n}\n\n\n// Return whether or not a person is old// A person is old if he is older than 80\nbool isOld(int age){\n    // code here\n}",
   componentDidMount: function() {
     jQuery.hotkeys.options.filterInputAcceptingElements = false;
     jQuery.hotkeys.options.filterContentEditable = false;
