@@ -8,7 +8,7 @@ layout: index
 
 [Challenge 2: If Statements](cpp_shell/challenge3)
 
-[Challenge 3: Loops](cpp_shell/challenge2)
+[Challenge 3: Loops](cpp_shell/challenge_arrayloop)
 
 ## More Challenges
 

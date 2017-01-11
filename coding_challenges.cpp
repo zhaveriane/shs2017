@@ -413,7 +413,7 @@ int main() {
         println(" instead of 5");
     }
 
-    int arary2[10] = {13, 130, 54, 2, 6, 8, 2, 35, -1, 10};
+    int array2[10] = {13, 130, 54, 2, 6, 8, 2, 35, -1, 10};
     if (arraySum(array2) == 331){
         println("Passed test 2!");
     } else {
