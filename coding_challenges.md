@@ -14,6 +14,8 @@ layout: index
 
 [Factorial](cpp_shell/challenge2)
 
+[Palindrome](cpp_shell/palindrome)
+
 [Prime Numbers](cpp_shell/challenge4)
 
 [Fibonacci](cpp_shell/fibbochallenge)

@@ -430,4 +430,41 @@ int arraySum(int array[]){
     // code here
 }
 
+//Palindrome
+
+//Ignore this:
+#include <iostream>
+using namespace std;
+#define println(x) do { cout << x << endl; } while (0) 
+#define print(x) do { cout << x; } while (0) 
+
+
+int main() {
+    int array1[6] = {1, 2, 3, 3, 2, 1};
+    if (palindrome(array1, 6)){
+        println("Passed test 1!");
+    } else {
+        print("Test 1 failed: returned ");
+        print(palindrome(array1, 6));
+        println(" instead of true");
+    }
+
+    int array2[8] = {13, 15, 20, 37, 38, 20, 15, 13};
+    if (!palindrome(array2, 8)){
+        println("Passed test 2!");
+    } else {
+        print("Test 2 failed: returned ");
+        print(palindrome(array2, 8));
+        println(" instead of false");
+    }
+    
+    return 0;
+}
+
+// Given an array with an even number of integers
+// Return whether or not the array is the same forwards and backwards
+int palindrome(int array[], int size){
+    // code here
+}
+
 
