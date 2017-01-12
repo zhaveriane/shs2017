@@ -14,7 +14,7 @@ layout: index
 
 [Factorial](cpp_shell/challenge2)
 
-[Palindrome](cpp_shell/palindrome)
+[Palindrome](cpp_shell/challenge_palindrome)
 
 [Prime Numbers](cpp_shell/challenge4)
 
