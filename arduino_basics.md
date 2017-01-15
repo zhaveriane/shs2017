@@ -119,8 +119,8 @@ Finally, we make the real action happen inside the loop function:
 ```
 void loop() {
 int sensor_value = analogRead(photoresistor); //read sensor value and store it into the integer sensor_value
-int buzzer_frequency = map(sensor_value, 0, 1023, 0, 4000); // Map the sensor values to the buzzer frequency (from 0 - 1023 to 0 - 4000)
-tone(buzzer, buzzer_frequency); //play the buzzer depending on the 
+int buzzer_frequency = map(sensor_value, 1023, 0, 31, 2000); // Map the sensor values to the buzzer frequency (1023 - 0 to 31 - 4000)
+tone(buzzer, buzzer_frequency); //play the buzzer depending on the sensor values
 }
 ```
 
