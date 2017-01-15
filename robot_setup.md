@@ -34,7 +34,7 @@ Follow the information from the images below to successfully connect the three m
 
 ![](http://arduino-info.wikispaces.com/file/view/MotorDriver1-450.jpg/530547396/301x375/MotorDriver1-450.jpg)
 
-![](https://github.com/zhaveriane/shs2017/blob/gh-pages/images/Motor_Driver_Wiring.png)
+![](https://raw.githubusercontent.com/zhaveriane/shs2017/gh-pages/images/Motor_Driver_Wiring.png)
 
 ![](http://arduino-info.wikispaces.com/file/view/RoboRedPinNumbersMD-450.jpg/530559622/RoboRedPinNumbersMD-450.jpg)
 
