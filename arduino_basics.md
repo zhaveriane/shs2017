@@ -195,9 +195,7 @@ void loop()   /****** LOOP: RUNS CONSTANTLY ******/
 
 This is very similar to circuit 2 - sensing an input, processing it, and producing output. Build a circuit as shown below:
 
-![](http://www.instructables.com/file/FBNQVIFHJA2EJX2/)
-
-Our goal is to light up the Red LED when we are too close to the sensor and light up the green LED when we are far away.
+![](https://cdn.instructables.com/FBN/QVIF/HJA2EJX2/FBNQVIFHJA2EJX2.LARGE.jpg)
 
 First we define some variables so that it's easy to refer to the sensor, LED, and buzzer pins in the code.
 
