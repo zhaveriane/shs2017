@@ -85,6 +85,7 @@ if (button_pressed == HIGH){
 else if (button_pressed == LOW){
   digitalWrite(led, LOW);
 }
+}
 ```
 
 Once you have the whole code properly set up, upload it to your Arduino. Connect your Arduino to the circuit and it should be "smart" -- the LED should light up when you press the button.
@@ -109,6 +110,7 @@ Then we specify INPUT/OUTPUT pinmodes in the Setup function. Photoresistor is us
 
 ```
 void setup() {
+Serial.begin(9600);
 pinMode(photoresistor, INPUT);
 pinMode(buzzer, OUTPUT);
 }
@@ -121,6 +123,7 @@ void loop() {
 int sensor_value = analogRead(photoresistor); //read sensor value and store it into the integer sensor_value
 int buzzer_frequency = map(sensor_value, 1023, 0, 31, 2000); // Map the sensor values to the buzzer frequency (1023 - 0 to 31 - 4000)
 tone(buzzer, buzzer_frequency); //play the buzzer depending on the sensor values
+Serial.println(sensor_value);
 }
 ```
 
