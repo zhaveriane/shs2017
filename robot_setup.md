@@ -26,6 +26,14 @@ Recommended Setup Directions:
 
 ![](http://arduino-info.wikispaces.com/file/view/PartsInstalled1-1024.jpg/539843958/800x586/PartsInstalled1-1024.jpg)
 
+**WIRING THE MOTORS, MOTOR DRIVER, AND ARDUINO**
 
+Follow the information from the images below to successfully connect the three main components of the robot!
+
+![](http://arduino-info.wikispaces.com/file/view/RemoveJumperBlocks-512.jpg/539843522/304x254/RemoveJumperBlocks-512.jpg)
+
+![](http://arduino-info.wikispaces.com/file/view/RemoveJumperBlocks-512.jpg/539843522/304x254/RemoveJumperBlocks-512.jpg)
+
+![](https://github.com/zhaveriane/shs2017/blob/gh-pages/images/Motor_Driver_Wiring.png)
 
 
