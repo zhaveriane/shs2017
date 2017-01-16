@@ -52,7 +52,7 @@ What **SETUP** does: Tells Arduino about things that need to be done once. Ardui
 
 Electronics - Build a real circuit as the one shown below:
 
-![](https://github.com/zhaveriane/shs2017/blob/gh-pages/images/LED_Button_Circuit.png)
+![](https://raw.githubusercontent.com/zhaveriane/shs2017/gh-pages/images/LED_Button_Circuit.png)
 
 Programming:
 
