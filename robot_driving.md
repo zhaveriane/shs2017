@@ -150,6 +150,10 @@ void leftTurn(){
 }
 ```
 
+**HINT**
+
+![](https://www.societyofrobots.com/images/programming_differentialdrive_example.gif)
+
 **ONLY AFTER COMPLETING MOVEMENT FUNCTIONS**
 
 2) Try to combine these functions using **delay** so that you can create more interesting paths. Try making the robot go along a square, a rectangle, and a triangle.
