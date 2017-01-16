@@ -64,8 +64,8 @@ Main = React.createClass({
       lastVars: []
     };
   },
-  defaultCode: "\n//If Statement\n\n\n//Ignore this:\n#include <iostream>\nusing namespace std;\n#define println(x) do { cout << x << endl; } while (0) \n#define print(x) do { cout << x; } while (0) \n\n\n\nint main() {\n    if (isOld(500)){\n        println(\"Passed test 1!\");\n    } else {\n        print(\"Test 1 failed: returned \");\n        print(isOld(500));\n        println(\" instead of true\");\n    }\n\n\n    if (!isOld(5)){\n        println(\"Passed test 2!\");\n    } else {\n        print(\"Test 2 failed: returned \");\n        print(isOld(5));\n        println(\" instead of false\");\n    }\n    \n    return 0;\n}\n\n\n// Return whether or not a person is old// A person is old if he is older than 80\nbool isOld(int age){\n    // code here\n}",
-  componentDidMount: function() {
+  defaultCode: "//Palindrome\n\n//Ignore this:\n#include <iostream>\nusing namespace std;\n#define println(x) do { cout << x << endl; } while (0) \n#define print(x) do { cout << x; } while (0) \n\n\nint main() {\n    int array1[6] = {1, 2, 3, 3, 2, 1};\n    if (palindrome(array1, 6)){\n        println(\"Passed test 1!\");\n    } else {\n        print(\"Test 1 failed: returned \");\n        print(palindrome(array1, 6));\n        println(\" instead of true\");\n    }\n\n    int array2[8] = {13, 15, 20, 37, 38, 20, 15, 13};\n    if (!palindrome(array2, 8)){\n        println(\"Passed test 2!\");\n    } else {\n        print(\"Test 2 failed: returned \");\n        print(palindrome(array2, 8));\n        println(\" instead of false\");\n    }\n\n    return 0;\n}\n\n// Given an array with an even number of integers\n// Return whether or not the array is the same forwards and backwards\nbool palindrome(int array[], int size){\n    // code here\n}",
+    componentDidMount: function() {
     jQuery.hotkeys.options.filterInputAcceptingElements = false;
     jQuery.hotkeys.options.filterContentEditable = false;
     $(document).bind("keydown", "ctrl+s", this.quickSave);

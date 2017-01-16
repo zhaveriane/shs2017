@@ -113,9 +113,44 @@ int main() {
 }
 
 // Get the first number in an array
-float getFirstArray(){
+int getFirstArray(){
     int arr[3] = {5, 10, 15};
 
+    // code here
+}
+
+//If Statement
+
+//Ignore this:
+#include <iostream>
+using namespace std;
+#define println(x) do { cout << x << endl; } while (0) 
+#define print(x) do { cout << x; } while (0) 
+
+
+int main() {
+    if (isold(500)){
+        println("Passed test 1!");
+    } else {
+        print("Test 1 failed: returned ");
+        print(isold(500));
+        println(" instead of true");
+    }
+
+    if (isold(5)){
+        println("Passed test 2!");
+    } else {
+        print("Test 2 failed: returned ");
+        print(isold(5));
+        println(" instead of false");
+    }
+    
+    return 0;
+}
+
+// Return whether or not a person is old
+// A person is old if he is older than 80
+bool isOld(int age){
     // code here
 }
 
@@ -359,6 +394,77 @@ bool isPrime(int n){
     return true;
 }
 
+//Sum of Array
 
+//Ignore this:
+#include <iostream>
+using namespace std;
+#define println(x) do { cout << x << endl; } while (0) 
+#define print(x) do { cout << x; } while (0) 
+
+
+int main() {
+    int array1[5] = {1, 1, 1, 1, 1};
+    if (arraySum(array1) == 5){
+        println("Passed test 1!");
+    } else {
+        print("Test 1 failed: returned ");
+        print(sum(array1));
+        println(" instead of 5");
+    }
+
+    int array2[10] = {13, 130, 54, 2, 6, 8, 2, 35, -1, 10};
+    if (arraySum(array2) == 331){
+        println("Passed test 2!");
+    } else {
+        print("Test 2 failed: returned ");
+        print(arraySum(array2));
+        println(" instead of false");
+    }
+    
+    return 0;
+}
+
+// Return the sum of all the numbers in an array
+int arraySum(int array[]){
+    // code here
+}
+
+//Palindrome
+
+//Ignore this:
+#include <iostream>
+using namespace std;
+#define println(x) do { cout << x << endl; } while (0) 
+#define print(x) do { cout << x; } while (0) 
+
+
+int main() {
+    int array1[6] = {1, 2, 3, 3, 2, 1};
+    if (palindrome(array1, 6)){
+        println("Passed test 1!");
+    } else {
+        print("Test 1 failed: returned ");
+        print(palindrome(array1, 6));
+        println(" instead of true");
+    }
+
+    int array2[8] = {13, 15, 20, 37, 38, 20, 15, 13};
+    if (!palindrome(array2, 8)){
+        println("Passed test 2!");
+    } else {
+        print("Test 2 failed: returned ");
+        print(palindrome(array2, 8));
+        println(" instead of false");
+    }
+    
+    return 0;
+}
+
+// Given an array with an even number of integers
+// Return whether or not the array is the same forwards and backwards
+int palindrome(int array[], int size){
+    // code here
+}
 
 
