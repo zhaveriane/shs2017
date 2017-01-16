@@ -1,3 +1,7 @@
+---
+layout: index
+---
+
 **CIRCUIT 1 - PUSHBUTTON AND LED (DIGITAL INPUT, DIGITAL OUTPUT)**
 
 Electronics - Build a real circuit as the one shown below:
