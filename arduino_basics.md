@@ -93,9 +93,9 @@ Once you have the whole code properly set up, upload it to your Arduino. Connect
 
 **Circuit 2 - Photoresistor and Buzzer (ANALOG INPUT, VARIABLE OUTPUT)**
 
-Electronics - Once again, built a real circuit as the one shown below:
+Electronics - Once again, build a real circuit as the one shown below:
 
-![](https://github.com/zhaveriane/shs2017/blob/gh-pages/images/LDR_Buzzer_Circuit.png)
+![](https://raw.githubusercontent.com/zhaveriane/shs2017/gh-pages/images/LDR_Buzzer_Circuit.png)
 
 Programming:
 
