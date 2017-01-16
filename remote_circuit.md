@@ -72,7 +72,7 @@ layout: index
 
 Upload the following code to your remote controller:  
 
-```c
+```cpp
 // Code for controller
 
 #include <RF24Network.h>
@@ -163,7 +163,7 @@ int readAxis(int thisAxis) {
 
 Upload the following code to the Robot.  
 
-```c
+```cpp
 // Code for Robot
 
 #include <RF24Network.h>
