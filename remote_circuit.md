@@ -101,6 +101,7 @@ unsigned long packets_sent;          // How many have we sent already
 struct payload_t {                  // Structure of our payload
   int x_axis_value;
   int y_axis_value;
+  bool buttonIsPressed;
 };
 
 void setup(void)
@@ -111,6 +112,7 @@ void setup(void)
   SPI.begin();
   radio.begin();
   network.begin(/*channel*/ 90, /*node address*/ this_node);
+  pinMode(0, INPUT);
 }
 
 void loop() {
@@ -124,7 +126,8 @@ void loop() {
     last_sent = now;
 
     Serial.print("Sending...");
-    payload_t payload = { readAxis(xAxis), readAxis(yAxis) };
+    bool buttonState = digitalRead(0);
+    payload_t payload = { readAxis(xAxis), readAxis(yAxis) , buttonState};
     RF24NetworkHeader header(/*to node*/ other_node);
     bool ok = network.write(header,&payload,sizeof(payload));
     if (ok)
@@ -157,6 +160,8 @@ int readAxis(int thisAxis) {
   // return the distance for this axis:
   return distance;
 }
+
+
 ```
 
 ## Code for Robot:  
@@ -169,6 +174,7 @@ Upload the following code to the Robot.
 #include <RF24Network.h>
 #include <RF24.h>
 #include <SPI.h>
+#include <Servo.h> //KKKKKKKKKKKKK
 
 #define leftMotorA 2
 #define leftMotorB 3
@@ -176,6 +182,8 @@ Upload the following code to the Robot.
 #define rightMotorA 4
 #define rightMotorB 5
 #define rightMotorEnable 10
+
+Servo myservo;  // create servo object to control a servo KKKKKKKKKKKKK
 
 RF24 radio(7,8);                // nRF24L01(+) radio attached using Getting Started board 
 
@@ -186,6 +194,7 @@ const uint16_t other_node = 01;   // Address of the other node in Octal format
 struct payload_t {                  // Structure of our payload
   int x_axis_value;
   int y_axis_value;
+  bool buttonIsPressed;
 };
 
 void stop() {
@@ -244,7 +253,7 @@ void setup(void)
     pinMode(rightMotorA, OUTPUT);
   pinMode(rightMotorB, OUTPUT);
   stop();
-//  RobotDriver.init();
+  myservo.attach(6); // KKKKKKKKKKKKKKK
 }
 
 
@@ -273,8 +282,15 @@ void loop(void){
     } else {
       stop();  
     }
+
+    if (payload.buttonIsPressed == true) {
+        myservo.write(180); // KKKKKKKKKKKKKKKK
+    } else {
+      myservo.write(0);
+    }
   }
 }
+
 ```
 
 
