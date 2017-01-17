@@ -14,34 +14,36 @@ Now click "Create a Sketch".
 
 (0, 0) is in the top left corner. It increases in both directions.
 
-![coordinates](coordinates.svg)
+![coordinates](images/proc_images/coordinates.svg)
 
 ## Drawing Shapes  
 
 Now we will learn how to draw shapes:  
 
-![shape](shapes.svg)
+![shape](images/proc_images/shapes.svg)
 
 ## Drawing Points  
 
 Points are simple to draw. We only need an x and y coordinate.
 
-![point](point.svg)
+![point](images/proc_images/point.svg)
 
 ## Drawing Lines  
 Lines require two coordinates:  
 
-![lines](lines.svg)  
+![lines](images/proc_images/lines.svg)  
 
 ## Drawing Rectangles  
 
 A rectangle requires the top left corner location and its width and height.
 
+![rectangle](images/proc_images/rectangle.svg)
+
 ## Drawing Ellipses  
 
 To draw an ellipse, provide the center point and the width and height.
 
-![ellipse](ellipse.svg)
+![ellipse](images/proc_images/ellipse.svg)
 
 ## Drawing 
 
