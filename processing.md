@@ -129,7 +129,7 @@ ellipse(60,20,16,16);
 
 ## Using the Mouse
 
-You can use your mouse by using **mouseX** and **mouseY**
+You can use your mouse by using **mouseX** and **mouseY** as variables. These variables have the coordinates of your mouse.
 
 ```java
 function setup() {
