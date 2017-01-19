@@ -109,20 +109,26 @@ To set the color, use the fill(r, g, b) command.
 
 
 ```java
-background(255);  
-noStroke(); 
+function setup() {
+  createCanvas(windowWidth, windowHeight); 
+  background(100);
+} 
 
-// Bright red
-fill(255,0,0);
-ellipse(20,20,16,16);
+function draw() {
+  background(255);  
 
-// Dark red
-fill(127,0,0);
-ellipse(40,20,16,16);
+  // Bright red
+  fill(255,0,0);
+  ellipse(20,20,16,16);
 
-// Pink (pale red)
-fill(255,200,200);
-ellipse(60,20,16,16);
+  // Dark red
+  fill(127,0,0);
+  ellipse(40,20,16,16);
+
+  // Pink (pale red)
+  fill(255,200,200);
+  ellipse(60,20,16,16);
+}
 ```
 
 ![color_dots](images/proc_images/color_dots.jpg)  
