@@ -148,6 +148,12 @@ function draw() {
 }
 ```
 
+## Challenge  
+
+Try making this image:
+
+![challenge1](images/proc_images/challenge1.png)  
+
 Now go and create something of your own!
 
 If you want more reference, go to [https://processing.org/reference/](https://processing.org/reference/)
