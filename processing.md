@@ -63,11 +63,6 @@ rect(90,50,20,100);
 
 ![step1](images/proc_images/step1.png)
 
-```java
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-} 
-
 Next, lets draw some ellipses:  
 
 ```java
@@ -86,6 +81,11 @@ ellipse(119,70,16,32);
 ![step2](images/proc_images/step2.png)
 
 Next, lets draw some lines:  
+
+```java
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+} 
 
 function draw() {
 rect(90,50,20,100);
