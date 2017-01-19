@@ -6,7 +6,7 @@ layout: index
 
 ## Using openprocessing.org
 
-Go to [openprocessing.org](openprocessing.org). Click "Join & Create". Create an account.  
+Go to [openprocessing.org](https://www.openprocessing.org). Click "Join & Create". Create an account.  
 
 Now click "Create a Sketch".
 
