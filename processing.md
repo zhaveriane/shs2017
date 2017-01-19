@@ -31,7 +31,7 @@ Points are simple to draw. We only need an x and y coordinate.
 ## Drawing Lines  
 Lines require two coordinates:  
 
-![lines](images/proc_images/lines.png)  
+![lines](images/proc_images/line.png)  
 
 ## Drawing Rectangles  
 
@@ -61,7 +61,7 @@ rect(90,50,20,100);
 }
 ```  
 
-![step1](step1.png)
+![step1](images/proc_images/step1.png)
 
 ```java
 function setup() {
@@ -83,7 +83,7 @@ ellipse(119,70,16,32);
 }
 ```
 
-![step2](step2.png)
+![step2](images/proc_images/step2.png)
 
 Next, lets draw some lines:  
 
@@ -99,7 +99,7 @@ line(110,110,140,100);
 }
 ```
 
-![step3](step3.png)
+![step3](images/proc_images/step3.png)
 
 Now try making your own drawings!
 
@@ -125,7 +125,7 @@ fill(255,200,200);
 ellipse(60,20,16,16);
 ```
 
-![color_dots](color_dots.jpg)  
+![color_dots](images/proc_images/color_dots.jpg)  
 
 ## Using the Mouse
 

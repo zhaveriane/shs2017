@@ -30,6 +30,9 @@ This workshop is going to cover a lot of information in a very short amount of t
 [Making the Remote Control Circuit](./remote_circuit)  
 [RF Modules](./remote_rf)  
 
+### Processing
+[Processing Lesson](./processing.md)  
+
 ##Useful Links:
 [C++ Editor](cpp_shell/cpp_shell)  
 Adafruit Arduino Tutorials: [https://learn.adafruit.com/series/learn-arduino](https://learn.adafruit.com/series/learn-arduino)  
